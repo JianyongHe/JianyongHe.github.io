@@ -5,11 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
 
-{% include base_path %}
+You can also find the most part of my publications on <a href="https://scholar.google.com/">my Google Scholar profile</a> and in <a href="https://www.researchgate.net/">ResearchGate</a>.
+
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
