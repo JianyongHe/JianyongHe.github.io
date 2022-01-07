@@ -1,58 +1,59 @@
 ---
 layout: archive
-title: "Curriculum Vitae"
+title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from: 
-  - /md/
-  - /cv.html
+redirect_from:
+  - /resume
 ---
 
-<h3> <i class="si si-microsoftacademic"></i> Education</h3> 
-Ph.D., major xx, University xx
-  * Date
-  * Thesis
-  * Advisor
+{% include base_path %}
 
-B.Sc., major xx, University xx
-  * Date
-  * Thesis
-  * Advisor
+Education
+======
+* B.S. in GitHub, GitHub University, 2012
+* M.S. in Jekyll, GitHub University, 2014
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
-M.Sc.
-  * Date
-  * Thesis
-  * Advisor
+Work experience
+======
+* Summer 2015: Research Assistant
+  * Github University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git
 
-<h3> <i class="si si-googlesearchconsole"></i> Employment</h3> 
-20xx - 20xx
-  * where
-  * short description
-  * reference
+* Fall 2015: Research Assistant
+  * Github University
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
+  
+Skills
+======
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
 
-<h3> <i class="si si-spreaker"></i> Honors and Awards</h3> 
-* Preis 1
-* Preis 2
-
-<h3> <i class="si si-semaphoreci"></i> Professional skills</h3> 
-* Computer languages: C
-* Tools: Git
-* Languages: English (fluent/native)
-
-
-<h3> <i class="si si-riotgames"></i> Service and leadership</h3> 
-* Journal manuscript review work (20xx-present)
-  * Journal 1 (xx reviews)
-  * Journal 2 (1 review)
-* Currently signed in to xx different slack teams
-
-
-<h3> <i class="si si-authy"></i> References</h3> 
-**Prof. abc**
-Prof. of xx
-
-University xx
-Adress of university xx
-Phone (if given)
-Email
- 
+Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+  
+Teaching
+======
+  <ul>{% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Service and leadership
+======
+* Currently signed in to 43 different slack teams
